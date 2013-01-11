@@ -31,6 +31,9 @@
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
+	    <li><a href="work.html">Work</a></li>
+	    <li><a href="courses.html">Courses</a></li>
+	    <li><a href="JasonShum_Resume.pdf">Resume</a></li>
 	    <li><a href="http://jshum.github.com/blog">Blog</a></li>
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
@@ -42,11 +45,9 @@
 
     <div class="container">
 
-      <div class="content">
-        {{ content }}
-      </div>
+      {{ content }} 
 
-      <footer>
+      <footer class="span7">
         <p>&copy; <a href="{{ HOME_PATH }}">{{ site.author.name }}</a>
           2012</p>
       </footer>

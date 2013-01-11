@@ -36,6 +36,14 @@ html, body {
   border: 0;
 }
 
+.spacer {
+	min-height: 20px;
+}
+
+.work-title {
+	font-family: Courier New; 
+	padding: 10px 20px 10px 20px;
+}
 
 /* tag_box ======================================================== */
 
